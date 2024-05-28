@@ -101,7 +101,7 @@ def final_check():
             Congratulations.configure(font=Congo_Tuple)
             Congratulations.grid(row=10,column=2,padx=10,pady=25,columnspan=35)
             pygame.mixer.init()
-            pygame.mixer.music.load("C:\\Users\\prefe\\Downloads\\sounds\\Winning.wav")
+            pygame.mixer.music.load("./C:\\Users\\prefe\\Downloads\\sounds\\Winning.wav")
             pygame.mixer.music.play(loops=0)
             Current_balance_rl.destroy()
             balance = (balance -bet_guess)+moneynum*20
@@ -117,7 +117,7 @@ def final_check():
             Congratulations.configure(font=Congo_Tuple)
             Congratulations.grid(row=10,column=2,padx=10,pady=25,columnspan=35)
             pygame.mixer.init()
-            pygame.mixer.music.load("C:\\Users\\prefe\\Downloads\\sounds\\Lost.wav")
+            pygame.mixer.music.load("./C:\\Users\\prefe\\Downloads\\sounds\\Lost.wav")
             pygame.mixer.music.play(loops=0)
             Current_balance_rl.destroy()
             balance = balance - bet_guess
